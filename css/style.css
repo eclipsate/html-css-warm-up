@@ -1,0 +1,93 @@
+body {
+   width: auto;
+   background-color: #e2e2e2;
+   color: #2b2b2b;
+   padding: 3.2em;
+   font-size: 14px;
+   line-height: 1.5em;
+   letter-spacing: 0.5px;
+   font-family: 'Pontano Sans', sans-serif;
+   font-weight: 300;
+   text-align: justify;
+}
+
+h1 {
+   font-family: "Orbitron", sans-serif;
+   font-size: 2em;
+   letter-spacing: 0.1em;
+   line-height: 2.1em;
+   color: #3ea086;
+   text-align: center;
+}
+
+h2 {
+   font-size: 1.4em;
+   text-align: center;
+   text-decoration: underline;
+}
+
+h3 {
+   font-size: 1.4em;
+   /* text-align: center; */
+   text-decoration: underline;
+}
+
+hr {
+   width: 75%;
+   margin-bottom: 2em;
+   color: #3ea086;
+   /* margin-top: 2em; */
+}
+
+img {
+   border: 1px solid #3ea086;
+   padding: 0.5em;
+}
+
+a {
+   color: #3ea086;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #000;
+}
+
+#text-right {
+   margin: auto;
+   width: 85%;
+/*   text-align: center;*/
+   padding-bottom: 1em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  /* width: 95%; */
+  margin: auto;
+  padding-bottom: 1.5em;
+}
+
+.flex-container .box {
+  /* width: 70%; */
+  margin: auto;
+  overflow: visible;
+  text-align: justify;
+}
+
+#main {
+   /* width: 100%; */
+   margin: auto;
+}
+
+.button {
+    width: 11em;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #000;
+}
